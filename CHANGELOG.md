@@ -8,3 +8,7 @@ All notable changes to this project will be documented in this file.
 - Added core functionality for stacked_carousel_slider.
 - Included example app demonstrating usage.
 - Published the first stable version on pub.dev.
+
+## 0.0.2
+
+- Fix screenshots
