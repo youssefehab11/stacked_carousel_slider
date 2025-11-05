@@ -45,16 +45,24 @@ StackedCarouselSlider(
 
 Horizontal Auto Rotate
 
-![Horizontal Auto Rotate](screenshots/horizontal_auto_rotate.gif)
+<p>
+    <img src="https://github.com/youssefehab11/stacked_carousel_slider/blob/master/screenshots/horizontal_auto_rotate.gif?raw=true"/>
+</p>
 
 Horizontal Scroll
 
-![Horizontal Scroll](screenshots/horizontal_scroll.gif)
+<p>
+    <img src="https://github.com/youssefehab11/stacked_carousel_slider/blob/master/screenshots/horizontal_scroll.gif?raw=true"/>
+</p>
 
 Vertical Auto Rotate
 
-![Vertical Auto Rotate](screenshots/vertical_auto_rotate.gif)
+<p>
+    <img src="https://github.com/youssefehab11/stacked_carousel_slider/blob/master/screenshots/vertical_auto_rotate.gif.gif?raw=true"/>
+</p>
 
 Vertical Scroll
 
-![Vertical Scroll](screenshots/vertical_scroll.gif)
+<p>
+    <img src="https://github.com/youssefehab11/stacked_carousel_slider/blob/master/screenshots/vertical_scroll.gif?raw=true"/>
+</p>
