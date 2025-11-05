@@ -58,7 +58,7 @@ Horizontal Scroll
 Vertical Auto Rotate
 
 <p>
-    <img src="https://github.com/youssefehab11/stacked_carousel_slider/blob/master/screenshots/vertical_auto_rotate.gif.gif?raw=true"/>
+    <img src="https://github.com/youssefehab11/stacked_carousel_slider/blob/master/screenshots/vertical_auto_rotate.gif?raw=true"/>
 </p>
 
 Vertical Scroll
