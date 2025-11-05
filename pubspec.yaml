@@ -1,6 +1,6 @@
 name: stacked_carousel_slider
 description: "A Flutter package for carousel slider that stacks and animates items with customizable spacing, scale, and alignment."
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/youssefehab11/stacked_carousel_slider
 
 environment:
