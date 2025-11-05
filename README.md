@@ -45,16 +45,16 @@ StackedCarouselSlider(
 
 Horizontal Auto Rotate
 
-![simple](screenshots/horizontal_auto_rotate.gif)
+![Horizontal Auto Rotate](screenshots/horizontal_auto_rotate.gif)
 
 Horizontal Scroll
 
-![simple](screenshots/horizontal_scroll.gif)
+![Horizontal Scroll](screenshots/horizontal_scroll.gif)
 
 Vertical Auto Rotate
 
-![simple](screenshots/vertical_auto_rotate.gif)
+![Vertical Auto Rotate](screenshots/vertical_auto_rotate.gif)
 
 Vertical Scroll
 
-![simple](screenshots/vertical_scroll.gif)
+![Vertical Scroll](screenshots/vertical_scroll.gif)
