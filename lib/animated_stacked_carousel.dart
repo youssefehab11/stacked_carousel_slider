@@ -72,8 +72,8 @@ class AnimatedStackedCarousel extends StatelessWidget {
                 (targetScaleForward - currentScale) * curvedProgress;
 
             return Positioned(
-              top: isVertical?top:null,
-              left: !isVertical?top:null,
+              top: isVertical ? top : null,
+              left: !isVertical ? top : null,
               child: Opacity(
                 opacity: 1,
                 child: Transform.scale(

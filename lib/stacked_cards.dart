@@ -38,7 +38,6 @@ class StackedCards extends StatefulWidget {
 
 class _StackedCardsState extends State<StackedCards>
     with SingleTickerProviderStateMixin {
-
   final _panThreshold = 100; //The smooth of dragging amount
   int _selectedIndex = 0;
   double _offset = 0;
@@ -54,7 +53,6 @@ class _StackedCardsState extends State<StackedCards>
 
   bool get _isVertical => widget.scrollDirection == Axis.vertical;
   int get _stackedLevels => widget.stackLevels;
-  
 
   @override
   void initState() {
