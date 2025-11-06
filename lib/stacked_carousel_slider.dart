@@ -18,6 +18,9 @@ class StackedCarouselSlider extends StatelessWidget {
   /// This value determines how many widgets can visually overlap within the stack.
   /// If the specified [stackLevels] exceeds `items.length - 2`, it will automatically
   /// default to `3`.
+  /// 
+  /// The minimum value of the stacklevel is 2, if you put it less than 2, it will automatically
+  /// default to `3`
   ///
   /// Example:
   /// ```dart
@@ -30,7 +33,7 @@ class StackedCarouselSlider extends StatelessWidget {
   /// A higher value decreases the spacing between each widget in the stack.
   final double spaceIntervalsFactor;
 
-  /// Whether the stacked widgets should automatically rotate when interacted with.
+  /// Whether the stacked widgets should automatically rotate.
   /// 
   /// Defaults to [false]
   final bool autoRotate;
@@ -77,7 +80,7 @@ class StackedCarouselSlider extends StatelessWidget {
         totalHeight: constraints.maxHeight,
         totalWidth: constraints.maxWidth,
         spaceIntervalFactor: spaceIntervalsFactor,
-        stackLevels: stackLevels >= items.length - 2 ? 3 : stackLevels,
+        stackLevels: stackLevels < 2 || stackLevels >= items.length - 2 ? 3 : stackLevels,
         onCardChange: onCardChange,
         onDragUpdate: onDragUpdate,
         onDragEnd: onDragEnd,

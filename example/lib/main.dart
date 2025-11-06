@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                 .toList(),
             height: 300,
             width: 200,
-            stackLevels: 3,
+            stackLevels: 1,
             spaceIntervalsFactor: 2,
           ),
         ),

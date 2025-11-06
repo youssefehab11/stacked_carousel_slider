@@ -14,7 +14,7 @@ A Flutter package for carousel slider that stacks and animates items with custom
 
 ## Installation
 
-Add `stacked_carousel_slider: ^1.0.0` to your `pubspec.yaml` dependencies. And import it:
+Add `stacked_carousel_slider:^0.0.4` to your `pubspec.yaml` dependencies. And import it:
 
 ```dart
 import 'package:stacked_carousel_slider/stacked_cards.dart';
@@ -40,6 +40,24 @@ StackedCarouselSlider(
           spaceIntervalsFactor: 2,
         ),
 ```
+
+## Params
+
+It has many required properties, including:
+
+- `items` – The items that you want to stack.
+- `height` – The height of each widget.
+- `width` – The width of each widget.
+- `stacklevels` – The number of layers (or "stack levels") used to stack widgets on top of each other.
+- `spaceIntervalsFactor` – The spacing factor used to calculate the distance between stacked widgets.
+
+It has some optional properties, including:
+
+- `autoRotate` – Whether the stacked widgets should automatically rotate. 
+- `scrollDirection` – The axis along which the stacked widgets can be scrolled.
+- `onCardChange` – Called when the visible (or active) card in the stack changes.
+- `onDragUpdate` – Called during a drag gesture, providing the current `progress` and `direction`.
+- `onDragEnd` – Called when a drag gesture ends.
 
 ## Screenshots
 
